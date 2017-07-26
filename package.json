@@ -1,0 +1,26 @@
+{
+  "name": "lambda-pushover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "zip -r lambda-pushover.zip *"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skehlet/lambda-pushover.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skehlet/lambda-pushover/issues"
+  },
+  "homepage": "https://github.com/skehlet/lambda-pushover#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "lambda-handler-promise-wrapper": "git+https://github.com/skehlet/lambda-fun.git",
+    "lodash": "^4.17.4",
+    "pushover-notifications": "^0.2.4"
+  }
+}
